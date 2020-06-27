@@ -1,11 +1,12 @@
-
 <?php
+include_once ('config/db/data-base.php');
+
+$db = new DataBase();
 include_once('header.php');
 ?>
 <div class="main">
     <div class="banner">
-        <div class="banner-back"
-             style="background: url('/assets/img/backTop.png') no-repeat scroll center -100px / cover"></div>
+        <div class="banner-back" style="background: url('/assets/img/backTop.png') no-repeat scroll center -100px / cover"></div>
     </div>
 
     <div class="profile-header">
@@ -57,4 +58,6 @@ include_once('header.php');
     </div>
 </div>
 <?php include_once('footer.php');?>
+</body>
+</html>
 
