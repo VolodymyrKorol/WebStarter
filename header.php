@@ -18,7 +18,7 @@
                         <div class="menu-container">
                             <div class="menu-bar">
                                 <div class="menu-item upper"><a href="#">Home</a></div>
-                                <div class="menu-item upper"><a href="/single.php">Developers</a></div>
+                                <div class="menu-item upper"><a href="/developers.php">Developers</a></div>
                                 <div class="menu-item upper"><a href="/portfolio">Portfolio</a></div>
                                 <div class="menu-item upper"><a href="/contact">Contact</a></div>
                             </div>

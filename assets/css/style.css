@@ -113,6 +113,9 @@ body{
 .profile_img{
     box-shadow: 0px 0px 23px -7px rgba(0,0,0,0.75);
 }
+.no-box-shadow{
+    box-shadow: none;
+}
 .profile_img-container{
     background-color: #c8cccf;
     padding: 50px 30px 0px 30px;
@@ -193,4 +196,37 @@ font-size: 25px;
     padding: 13px;
     font-weight: 400;
     color: #676767;
+}
+.developer-container{
+    display: flex;
+    flex-direction: column;
+}
+.developer-item{
+    display: flex;
+    margin-bottom: 25px;
+}
+.m0{
+    margin: 0;
+}
+.dev-img{
+    background-color: #c8cccf;
+}
+.main-title{
+margin-bottom: 30px;
+}
+.dev-info{
+    margin-left: 30px;
+}
+.developer{
+    margin-top: 70px;
+}
+.developer-item{
+    box-shadow: 0px 0px 23px -7px rgba(0,0,0,0.75);
+    padding: 17px;
+    display:flex;
+    color: #000;
+    text-decoration: none;
+}
+.dev-name{
+    margin-bottom: 10px;
 }
