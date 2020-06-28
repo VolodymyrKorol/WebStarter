@@ -80,6 +80,8 @@ body{
     padding: 28px 25px;
     font-size: 20px;
     margin-left: 117px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .phrase {
@@ -112,13 +114,13 @@ body{
 }
 .profile_img{
     box-shadow: 0px 0px 23px -7px rgba(0,0,0,0.75);
+
 }
 .no-box-shadow{
     box-shadow: none;
 }
 .profile_img-container{
     background-color: #c8cccf;
-    padding: 50px 30px 0px 30px;
     border: 10px solid #ffffff;
 
 }
@@ -126,8 +128,8 @@ body{
     font-weight: 500;
 }
 .profile_img-img{
-    width: 100px;
-    height: 115px;
+    width: 150px;
+    height: 185px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -230,3 +232,41 @@ margin-bottom: 30px;
 .dev-name{
     margin-bottom: 10px;
 }
+.authorize{
+    display: flex;
+}
+.log_in{
+  padding-right: 10px;
+ border-right:2px solid #000;
+
+}
+.d-block{
+display: block;
+}
+.sign_up{
+    padding-left: 10px;
+}
+.authorize-item>a{
+    text-decoration: underline;
+    color: #000;
+}
+.log_in-form>input{
+    margin-bottom: 20px;
+}
+.log_in-form>label{
+    margin-bottom: 10px;
+}
+.log_in-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log_in-container{
+    margin-top: 100px;
+}
+#submit-login{
+    margin-top: 20px;
+    padding:10px ;
+}
+

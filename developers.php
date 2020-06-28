@@ -32,21 +32,7 @@ $res = $db->query("SELECT * FROM `developers` ORDER BY `dev_id` LIMIT 3");
                 } else {
                     echo "<p>There are no developers!</p>";
                 }
-
                 ?>
-                <a href="/" class="developer-item">
-                    <div class="profile_img no-box-shadow">
-                        <div class="profile_img-container">
-                            <div class="profile_img-img" style="background-image: url('/assets/img/prof.png') ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dev-info">
-                        <div class="dev-name"><h1>Volodymyr Korol</h1></div>
-                        <div class="dev-description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Dolores, soluta.</p></div>
-                    </div>
-                </a>
             </div>
         </div>
     </div>

@@ -1,5 +1,7 @@
-
 <?php
+session_start();
+
+
 include_once('header.php');
 ?>
 <div class="main">
@@ -13,12 +15,12 @@ include_once('header.php');
             <div class="profile-header_container">
                 <div class="profile_img">
                     <div class="profile_img-container">
-                        <div class="profile_img-img" style="background-image: url('/assets/img/prof.png') ">
+                        <div class="profile_img-img" style="background-image: url('<?php echo isset($_SESSION['img'])?$_SESSION['img']:'assets/img/prof.png'?>') ">
                         </div>
                     </div>
                 </div>
                 <div class="profile-info">
-                    <div class="profile-text flex-1"><h1 class="profile-name">Krishnanunni</h1>
+                    <div class="profile-text flex-1"><h1 class="profile-name"><?php echo $_SESSION['name']?$_SESSION['name']:'Krishnanunni' ?></h1>
                         <p class="profile-name"> Freelance Web designer & developer</p></div>
                 </div>
             </div>
